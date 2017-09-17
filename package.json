@@ -1,0 +1,18 @@
+{
+  "bin": {
+    "storj-bridge": "./bin/Digipulse-hub-alpha",
+    "storj-complex": "./bin/storj-complex",
+    "storjshare-start": "./bin/storjshare-start"
+  },
+  "dependencies": {
+    "storj-bridge": "git+https://75e94c227290af95214fe3b02118a3cf6244ba60:x-oauth-basic@github.com/digipulseio/Digipulse-hub-alpha.git",
+    "storj-complex": "storj/complex",
+    "storj-lib": "storj/core",
+    "storj-mongodb-adapter": "storj/mongodb-adapter",
+    "storj-service-error-types": "storj/service-error-types",
+    "storj-service-mailer": "storj/service-mailer",
+    "storj-service-middleware": "storj/service-middleware",
+    "storj-service-storage-models": "storj/service-storage-models",
+    "storjshare-daemon": "storj/storjshare-daemon"
+  }
+}
